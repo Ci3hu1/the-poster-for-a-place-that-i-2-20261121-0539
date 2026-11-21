@@ -61,10 +61,21 @@ stay, legible intentional type, eye path name → spire → horizon.
 - `main.py` is pure stdlib (copies bundled entry.png). Tests: 2/2 pass
   (`python3 tests/test_main.py`); clean-dir run verified byte-identical
   output, 1024x1024, mode 0644.
-- Kit check: (filled in after the check run).
-- Bundle: (filled in after the re-bundle).
+- Kit check: 13 passed, 0 failed, 6 skipped, 5 at submission, ok=true
+  (check run 21 Nov 2026 ~13:22 WIB, kit 1.5.236, commit cabb810).
+  Note: gitleaks not installed — transcripts redacted with built-in
+  rules only (same note as the passport v2 check).
+- Bundle: ~/workspace/tools/makefun/the-poster-for-a-place-that-i-2-20261121-0539.tar.gz,
+  1,093,354 bytes, sha256 85c0cf404a412bf334f87a5acb729db4d9294ec7d3c88e3725f0af9a239aab1c,
+  18 sessions, origin other, model ipnext/avocado-5.17-v2,
+  usage file 200 rows (parent 183 v3 + 17 subagents v2).
+- Submitted 21 Nov 2026 13:23 WIB on Joni's 'Setuju': submission
+  01a1fcc6-1b49-77cd-96e4-f41f8d8077d2, HTTP 202, signed by payout wallet
+  h7aEYozd3ouRt11uqdJC8cQ42hHRckuFotiEvuJbuhE. Claim code ONLY in
+  ~/.config/makefun/the-poster-for-a-place-that-i-2-20261121-0539-submission.json (0600).
+  Status at submit: round 1, outcome not decided, checks empty.
 
 ## Live score / rank
 
-- Not submitted yet — this build is reported for Joni's 'Setuju' first.
-- After submit: record live score and rank here.
+- Submitted 13:23 WIB; live score/rank not yet visible (checks empty at
+  submit). Record here once the live score appears.
